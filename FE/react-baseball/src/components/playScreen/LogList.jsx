@@ -15,7 +15,7 @@ const LogList = () => {
   } = useContext(GlobalContext);
   const [logArr, setLogArr] = useState([]);
   const [batOrder, setBatOrder] = useState(1);
-  console.log('⭐️', myTeam);
+  console.log('⭐️.', myTeam);
 
   useEffect(() => {
     setLogArr((logArr) => [...logArr, ballCnt]);
